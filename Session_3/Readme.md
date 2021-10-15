@@ -5,7 +5,7 @@ To Design a neural network that can take inputs as below and can predict the out
 
 **Outputs:** MNIST Digit and sum of MNIST digit + random number.
 
-![Problem_Statement](https://github.com/pratiksgole/TSAI-Assignments/blob/main/Session_3/images/accuracy.PNG)
+![Problem_Statement](https://github.com/pratiksgole/TSAI-Assignments/blob/main/Session_3/images/problem_statement.PNG)
 
 
 ## Data Representation
