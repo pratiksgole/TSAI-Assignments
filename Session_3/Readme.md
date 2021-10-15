@@ -5,7 +5,7 @@ To Design a neural network that can take inputs as below and can predict the out
 
 **Outputs:** MNIST Digit and sum of MNIST digit + random number.
 
-![Problem_Statement](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/problem_statement.png)
+![Problem_Statement](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/problem_statement.PNG)
 
 
 ## Data Representation
@@ -44,11 +44,11 @@ We have concatenated the final probabilities of 10 classes for a MNIST image fro
 
 After this we get a tensor of size 20, which we pass through final fully connected layer (``self.out2``) with ``input_features = 20`` and ``output_features = 19``, to get all possible probabilities of sums which are 19.
 
-![Combination](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/combine_image_num.png)
+![Combination](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/combine_image_num.PNG)
 
 
 ## Model 
-![Model_Architecture](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/model.png)
+![Model_Architecture](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/model.PNG)
 
 ## Loss Function
 We used 2 losses, one for each ouput, and averaged them to get total loss.
@@ -63,7 +63,7 @@ We measured and compared the Total loss and Accuracy on Train set.
 Below are the results of our model predictions at each epoch. We have trained the model for ``100 epochs``. The training was done on **GPU**.
 Accuracy on Test set for digit recognition is 98.5% and sum prediction accuracy is 92.2%.
 
-![Training_Logs](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/model.png)
+![Training_Logs](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/model.PNG)
 
 #### Accuracy vs No. of Epochs
-![Accuracy](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/accuracy.png)
+![Accuracy](https://github.com/pratiksgole/TSAI-Assignments/tree/main/Session_3/images/accuracy.PNG)
